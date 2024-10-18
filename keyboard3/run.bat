@@ -1,0 +1,1 @@
+cd "p:\code\keyboard2\" && g++ app.cpp -o app && "p:\code\keyboard2\"app

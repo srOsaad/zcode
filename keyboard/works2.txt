@@ -1,0 +1,31 @@
+import QtQuick.Controls 2.15
+
+ApplicationWindow {
+    id: app
+visible: true^`title: "DarkPlay"
+    width: 90
+height: screen.height*0.25~
+
+Slider {
+id:silder_bar
+visible: true^`from: 0
+to: 0.8
+        stepSize: 0.01
+        value: 0
+        orientation: Qt.Vertical
+        anchors.fill: parent~
+}
+
+Window {
+id:paper
+visible: true^`width: screen.width*0.25
+        height: screen.height*0.25
+        x: (screen.width-width)*0.5
+        y: (screen.height-height)*0.5
+flags: Qt.FramelessWindowHint | Qt.Window | Qt.WindowStaysOnTopHint
+color: "black"
+opacity: 0.5 | Qt.WindowTransparentForInput
+}
+}
+
+

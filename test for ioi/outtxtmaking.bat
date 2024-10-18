@@ -1,0 +1,1 @@
+input.exe>>outputagain.txt
